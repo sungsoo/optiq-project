@@ -1,0 +1,3 @@
+net/hydromatic/avatica/test/AvaticaSuite.class
+net/hydromatic/avatica/test/ConnectStringParserTest.class
+net/hydromatic/avatica/test/ConnectStringParserTest$Quad.class

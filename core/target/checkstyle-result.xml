@@ -1,0 +1,1903 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.7">
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/AggregateFunction.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/BuiltinMethod.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/config/Lex.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/config/OptiqConnectionConfig.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/config/OptiqConnectionConfigImpl.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/config/OptiqConnectionProperty.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/config/package-info.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/DataContext.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/Demo.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/Function.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/FunctionParameter.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/impl/AbstractSchema.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/impl/AbstractTable.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/impl/AbstractTableQueryable.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/impl/AggregateFunctionImpl.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/impl/clone/ArrayTable.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/impl/clone/CloneSchema.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/impl/clone/ColumnLoader.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/impl/clone/ListTable.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/impl/clone/package-info.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/impl/DelegatingSchema.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/impl/interpreter/Context.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/impl/interpreter/FilterNode.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/impl/interpreter/Interpreter.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/impl/interpreter/Node.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/impl/interpreter/Nodes.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/impl/interpreter/package-info.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/impl/interpreter/ProjectNode.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/impl/interpreter/Row.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/impl/interpreter/Scalar.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/impl/interpreter/ScanNode.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/impl/interpreter/Sink.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/impl/interpreter/SortNode.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/impl/interpreter/Source.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/impl/interpreter/ValuesNode.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/impl/java/AbstractQueryableTable.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/impl/java/JavaTypeFactory.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/impl/java/package-info.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/impl/java/ReflectiveSchema.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/impl/jdbc/JdbcConvention.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/impl/jdbc/JdbcImplementor.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/impl/jdbc/JdbcQueryProvider.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/impl/jdbc/JdbcRel.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/impl/jdbc/JdbcRules.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/impl/jdbc/JdbcSchema.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/impl/jdbc/JdbcTable.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/impl/jdbc/JdbcTableScan.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/impl/jdbc/JdbcToEnumerableConverter.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/impl/jdbc/JdbcToEnumerableConverterRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/impl/jdbc/JdbcUtils.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/impl/jdbc/package-info.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/impl/MaterializedViewTable.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/impl/package-info.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/impl/ReflectiveFunctionBase.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/impl/ScalarFunctionImpl.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/impl/StarTable.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/impl/TableFunctionImpl.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/impl/TableMacroImpl.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/impl/ViewTable.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/ImplementableAggFunction.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/ImplementableFunction.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/jdbc/Driver.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/jdbc/JavaRecordType.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/jdbc/JavaTypeFactoryImpl.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/jdbc/MetadataSchema.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/jdbc/MetaImpl.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/jdbc/OptiqConnection.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/jdbc/OptiqConnectionImpl.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/jdbc/OptiqFactory.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/jdbc/OptiqJdbc40Factory.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/jdbc/OptiqJdbc41Factory.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/jdbc/OptiqPrepare.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/jdbc/OptiqPreparedStatement.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/jdbc/OptiqResultSet.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/jdbc/OptiqRootSchema.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/jdbc/OptiqSchema.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/jdbc/OptiqStatement.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/jdbc/package-info.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/jdbc/SqlTimeoutException.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/materialize/Lattice.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/materialize/MaterializationActor.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/materialize/MaterializationKey.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/materialize/MaterializationService.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/materialize/package-info.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/Member.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/model/JsonColumn.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/model/JsonCustomSchema.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/model/JsonCustomTable.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/model/JsonFunction.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/model/JsonJdbcSchema.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/model/JsonLattice.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/model/JsonMapSchema.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/model/JsonMaterialization.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/model/JsonMeasure.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/model/JsonRoot.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/model/JsonSchema.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/model/JsonTable.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/model/JsonTile.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/model/JsonView.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/model/ModelHandler.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/model/package-info.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/ModifiableTable.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/package-info.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/prepare/LixToRelTranslator.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/prepare/OptiqCatalogReader.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/prepare/OptiqMaterializer.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/prepare/OptiqPrepareImpl.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/prepare/OptiqSqlValidator.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/prepare/package-info.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/prepare/PlannerImpl.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/prepare/Prepare.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/prepare/QueryableRelBuilder.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/prepare/RelOptTableImpl.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/QueryableTable.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/rules/java/AggAddContext.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/rules/java/AggContext.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/rules/java/AggImplementor.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/rules/java/AggImpState.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/rules/java/AggResetContext.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/rules/java/AggResultContext.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/rules/java/CallImplementor.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/rules/java/EnumerableConvention.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/rules/java/EnumerableRel.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/rules/java/EnumerableRelImplementor.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/rules/java/impl/AggAddContextImpl.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/rules/java/impl/AggResetContextImpl.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/rules/java/impl/AggResultContextImpl.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/rules/java/impl/package-info.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/rules/java/impl/WinAggAddContextImpl.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/rules/java/impl/WinAggResetContextImpl.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/rules/java/impl/WinAggResultContextImpl.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/rules/java/JavaRelImplementor.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/rules/java/JavaRowFormat.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/rules/java/JavaRules.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/rules/java/NestedBlockBuilder.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/rules/java/NestedBlockBuilderImpl.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/rules/java/NotNullImplementor.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/rules/java/NullPolicy.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/rules/java/package-info.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/rules/java/PhysType.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/rules/java/PhysTypeImpl.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/rules/java/ReflectiveCallNotNullImplementor.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/rules/java/RexImpTable.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/rules/java/RexToLixTranslator.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/rules/java/StrictAggImplementor.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/rules/java/StrictWinAggImplementor.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/rules/java/WinAggAddContext.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/rules/java/WinAggContext.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/rules/java/WinAggFrameContext.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/rules/java/WinAggFrameResultContext.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/rules/java/WinAggImplementor.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/rules/java/WinAggResetContext.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/rules/java/WinAggResultContext.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/rules/package-info.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/runtime/AbstractCursor.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/runtime/ArrayComparator.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/runtime/ArrayEnumeratorCursor.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/runtime/BinarySearch.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/runtime/Bindable.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/runtime/Enumerables.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/runtime/EnumeratorCursor.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/runtime/FlatLists.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/runtime/Hook.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/runtime/Like.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/runtime/ObjectEnumeratorCursor.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/runtime/package-info.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/runtime/RecordEnumeratorCursor.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/runtime/ResultSetEnumerable.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/runtime/SortedMultiMap.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/runtime/Spacer.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/runtime/Spaces.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/runtime/SqlFunctions.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/runtime/Typed.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/runtime/Unit.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/runtime/Utilities.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/ScalarFunction.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/Schema.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/SchemaFactory.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/SchemaPlus.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/Schemas.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/SemiMutableSchema.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/server/OptiqServer.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/server/OptiqServerStatement.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/server/package-info.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/Statistic.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/Statistics.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/Table.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/TableFactory.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/TableFunction.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/TableMacro.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/tools/FrameworkConfig.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/tools/Frameworks.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/tools/package-info.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/tools/Planner.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/tools/Program.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/tools/Programs.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/tools/RelConversionException.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/tools/RuleSet.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/tools/RuleSets.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/tools/ValidationException.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/TranslatableTable.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/util/BitSets.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/util/Compatible.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/util/CompatibleGuava11.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/util/CompositeMap.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/util/graph/BreadthFirstIterator.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/util/graph/CycleDetector.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/util/graph/DefaultDirectedGraph.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/util/graph/DefaultEdge.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/util/graph/DepthFirstIterator.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/util/graph/DirectedGraph.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/util/graph/Graphs.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/util/graph/package-info.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/util/graph/TopologicalOrderIterator.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/util/package-info.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/net/hydromatic/optiq/util/PartiallyOrderedSet.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/javac/JaninoCompiler.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/javac/JavaCompiler.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/javac/JavaCompilerArgs.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/javac/package-info.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/javac/SynchronizedJaninoCompiler.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/jdbc4/package-info.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/AbstractRelNode.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/AggregateCall.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/AggregateRel.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/AggregateRelBase.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/Aggregation.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/CalcRel.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/CalcRelBase.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/CollectRel.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/convert/ConverterRel.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/convert/ConverterRelImpl.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/convert/ConverterRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/convert/NoneConverterRel.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/convert/package-info.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/convert/TraitMatchingRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/Correlation.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/CorrelatorRel.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/EmptyRel.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/FilterRel.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/FilterRelBase.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/IntersectRel.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/IntersectRelBase.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/InvalidRelException.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/jdbc/package-info.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/JoinInfo.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/JoinRel.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/JoinRelBase.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/JoinRelType.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/metadata/BuiltInMetadata.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/metadata/CachingRelMetadataProvider.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/metadata/ChainedRelMetadataProvider.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/metadata/DefaultRelMetadataProvider.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/metadata/Metadata.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/metadata/MetadataFactory.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/metadata/MetadataFactoryImpl.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/metadata/package-info.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/metadata/ReflectiveRelMetadataProvider.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/metadata/RelColumnMapping.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/metadata/RelColumnOrigin.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/metadata/RelMdColumnOrigins.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/metadata/RelMdColumnUniqueness.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/metadata/RelMdDistinctRowCount.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/metadata/RelMdExplainVisibility.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/metadata/RelMdPercentageOriginalRows.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/metadata/RelMdPopulationSize.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/metadata/RelMdPredicates.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/metadata/RelMdRowCount.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/metadata/RelMdSelectivity.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/metadata/RelMdUniqueKeys.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/metadata/RelMdUtil.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/metadata/RelMetadataProvider.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/metadata/RelMetadataQuery.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/MinusRel.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/MinusRelBase.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/OneRowRel.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/OneRowRelBase.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/package-info.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/ProjectRel.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/ProjectRelBase.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/RelCollation.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/RelCollationImpl.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/RelCollationTraitDef.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/RelFactories.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/RelFieldCollation.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/RelImplementorImpl.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/RelInput.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/RelJson.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/RelJsonReader.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/RelJsonWriter.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/RelNode.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/RelShuttle.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/RelShuttleImpl.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/RelVisitor.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/RelWriter.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/RelWriterImpl.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/RelXmlWriter.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/AddRedundantSemiJoinRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/AggregateFilterTransposeRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/AggregateProjectMergeRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/AggregateStarTableRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/CalcRelSplitter.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/CoerceInputsRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/CombineUnionsRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/CommutativeJoinRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/ConvertMultiJoinRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/EquiJoinRel.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/ExtractJoinFilterRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/FilterToCalcRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/LoptJoinTree.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/LoptMultiJoin.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/LoptOptimizeJoinRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/LoptSemiJoinOptimizer.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/MergeCalcRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/MergeFilterOntoCalcRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/MergeFilterRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/MergeProjectOntoCalcRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/MergeProjectRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/MultiJoinRel.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/NestedLoopsJoinRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/OptimizeBushyJoinRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/package-info.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/ProjectToCalcRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/PullConstantsThroughAggregatesRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/PullUpAggregateAboveUnionRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/PullUpProjectsAboveJoinRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/PullUpProjectsOnTopOfMultiJoinRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/PushAggregateThroughUnionRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/PushFilterIntoMultiJoinRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/PushFilterPastJoinRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/PushFilterPastProjectRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/PushFilterPastSetOpRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/PushFilterPastTableFunctionRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/PushJoinThroughJoinRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/PushJoinThroughUnionRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/PushProjectIntoMultiJoinRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/PushProjector.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/PushProjectPastFilterRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/PushProjectPastJoinRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/PushProjectPastSetOpRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/PushProjectPastSortRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/PushSemiJoinPastFilterRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/PushSemiJoinPastJoinRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/PushSemiJoinPastProjectRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/PushSortPastProjectRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/ReduceAggregatesRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/ReduceDecimalsRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/ReduceExpressionsRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/ReduceValuesRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/RemoveDistinctAggregateRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/RemoveDistinctRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/RemoveEmptyRules.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/RemoveIsNotDistinctFromRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/RemoveSemiJoinRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/RemoveSortRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/RemoveTrivialCalcRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/RemoveTrivialProjectRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/SemiJoinRel.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/SemiJoinRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/SwapJoinRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/TableAccessRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/TransitivePredicatesOnJoinRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/UnionEliminatorRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/UnionToDistinctRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/rules/WindowedAggSplitterRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/SamplingRel.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/SetOpRel.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/SingleRel.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/SortRel.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/TableAccessRel.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/TableAccessRelBase.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/TableFunctionRel.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/TableFunctionRelBase.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/TableModificationRel.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/TableModificationRelBase.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/UncollectRel.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/UnionRel.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/UnionRelBase.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/ValuesRel.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/ValuesRelBase.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/WindowRel.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rel/WindowRelBase.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/AbstractRelOptPlanner.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/CommonRelSubExprRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/Context.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/Contexts.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/Convention.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/ConventionTraitDef.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/hep/HepInstruction.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/hep/HepMatchOrder.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/hep/HepPlanner.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/hep/HepProgram.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/hep/HepProgramBuilder.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/hep/HepRelMetadataProvider.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/hep/HepRelVertex.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/hep/HepRuleCall.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/hep/package-info.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/MulticastRelOptListener.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/package-info.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/RelImplementor.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/RelOptAbstractTable.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/RelOptCluster.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/RelOptConnection.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/RelOptCost.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/RelOptCostFactory.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/RelOptCostImpl.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/RelOptLattice.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/RelOptListener.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/RelOptMaterialization.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/RelOptNode.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/RelOptPlanner.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/RelOptPredicateList.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/RelOptQuery.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/RelOptRule.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/RelOptRuleCall.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/RelOptRuleOperand.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/RelOptRuleOperandChildPolicy.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/RelOptRuleOperandChildren.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/RelOptSamplingParameters.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/RelOptSchema.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/RelOptSchemaWithSampling.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/RelOptTable.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/RelOptUtil.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/RelTrait.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/RelTraitDef.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/RelTraitPropagationVisitor.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/RelTraitSet.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/Strong.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/SubstitutionVisitor.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/TableAccessMap.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/VisitorRelVisitor.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/volcano/AbstractConverter.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/volcano/ChainedPhaseRuleMappingInitializer.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/volcano/package-info.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/volcano/RelSet.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/volcano/RelSubset.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/volcano/RuleQueue.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/volcano/VolcanoCost.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/volcano/VolcanoPlanner.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/volcano/VolcanoPlannerPhase.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/volcano/VolcanoPlannerPhaseRuleMappingInitializer.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/volcano/VolcanoRelMetadataProvider.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/volcano/VolcanoRuleCall.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/relopt/volcano/VolcanoRuleMatch.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/reltype/package-info.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/reltype/RelCrossType.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/reltype/RelDataType.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/reltype/RelDataTypeComparability.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/reltype/RelDataTypeFactory.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/reltype/RelDataTypeFactoryImpl.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/reltype/RelDataTypeFamily.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/reltype/RelDataTypeField.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/reltype/RelDataTypeFieldImpl.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/reltype/RelDataTypeImpl.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/reltype/RelDataTypePrecedenceList.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/reltype/RelDataTypeSystem.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/reltype/RelDataTypeSystemImpl.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/reltype/RelProtoDataType.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/reltype/RelRecordType.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/resource/EigenbaseNewResource.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/resource/Feature.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/resource/package-info.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rex/package-info.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rex/RexAction.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rex/RexBuilder.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rex/RexCall.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rex/RexCallBinding.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rex/RexChecker.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rex/RexCopier.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rex/RexCorrelVariable.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rex/RexDynamicParam.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rex/RexExecutable.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rex/RexExecutorImpl.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rex/RexFieldAccess.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rex/RexFieldCollation.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rex/RexInputRef.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rex/RexLiteral.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rex/RexLocalRef.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rex/RexMultisetUtil.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rex/RexNode.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rex/RexOver.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rex/RexPattern.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rex/RexPermutationShuttle.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rex/RexPermuteInputsShuttle.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rex/RexProgram.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rex/RexProgramBuilder.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rex/RexRangeRef.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rex/RexShuttle.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rex/RexSlot.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rex/RexSqlConvertlet.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rex/RexSqlConvertletTable.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rex/RexSqlReflectiveConvertletTable.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rex/RexSqlStandardConvertletTable.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rex/RexToSqlNodeConverter.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rex/RexToSqlNodeConverterImpl.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rex/RexTransformer.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rex/RexUtil.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rex/RexVariable.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rex/RexVisitor.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rex/RexVisitorImpl.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rex/RexWindow.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/rex/RexWindowBound.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/runtime/package-info.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sarg/package-info.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sarg/SargBinding.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sarg/SargBoundType.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sarg/SargEndpoint.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sarg/SargExpr.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sarg/SargFactory.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sarg/SargInterval.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sarg/SargIntervalBase.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sarg/SargIntervalExpr.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sarg/SargIntervalSequence.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sarg/SargMutableEndpoint.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sarg/SargRexAnalyzer.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sarg/SargSetExpr.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sarg/SargSetOperator.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sarg/SargStrictness.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/advise/package-info.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/advise/SqlAdvisor.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/advise/SqlAdvisorGetHintsFunction.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/advise/SqlAdvisorHint.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/advise/SqlAdvisorValidator.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/advise/SqlSimpleParser.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/ExplicitOperatorBinding.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/fun/package-info.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/fun/SqlAbstractTimeFunction.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/fun/SqlArrayQueryConstructor.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/fun/SqlArrayValueConstructor.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/fun/SqlAvgAggFunction.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/fun/SqlBetweenOperator.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/fun/SqlCase.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/fun/SqlCaseOperator.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/fun/SqlCastFunction.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/fun/SqlCeilFunction.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/fun/SqlCoalesceFunction.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/fun/SqlCollectionTableOperator.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/fun/SqlColumnListConstructor.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/fun/SqlConvertFunction.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/fun/SqlCountAggFunction.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/fun/SqlCurrentDateFunction.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/fun/SqlCursorConstructor.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/fun/SqlDatetimeSubtractionOperator.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/fun/SqlExtractFunction.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/fun/SqlFirstLastValueAggFunction.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/fun/SqlFloorFunction.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/fun/SqlHistogramAggFunction.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/fun/SqlInOperator.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/fun/SqlItemOperator.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/fun/SqlLeadLagAggFunction.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/fun/SqlLikeOperator.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/fun/SqlLiteralChainOperator.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/fun/SqlMapQueryConstructor.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/fun/SqlMapValueConstructor.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/fun/SqlMinMaxAggFunction.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/fun/SqlMonotonicBinaryOperator.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/fun/SqlMonotonicUnaryFunction.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/fun/SqlMultisetMemberOfOperator.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/fun/SqlMultisetQueryConstructor.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/fun/SqlMultisetSetOperator.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/fun/SqlMultisetValueConstructor.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/fun/SqlNewOperator.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/fun/SqlNtileAggFunction.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/fun/SqlNullifFunction.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/fun/SqlOverlapsOperator.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/fun/SqlOverlayFunction.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/fun/SqlPositionFunction.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/fun/SqlRowOperator.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/fun/SqlSingleValueAggFunction.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/fun/SqlStdOperatorTable.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/fun/SqlStringContextVariable.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/fun/SqlSubstringFunction.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/fun/SqlSumAggFunction.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/fun/SqlSumEmptyIsZeroAggFunction.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/fun/SqlThrowOperator.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/fun/SqlTrimFunction.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/JoinConditionType.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/JoinType.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/package-info.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/parser/impl/package-info.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/parser/package-info.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/parser/SqlAbstractParserImpl.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/parser/SqlParseException.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/parser/SqlParser.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/parser/SqlParserImplFactory.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/parser/SqlParserPos.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/parser/SqlParserUtil.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/pretty/package-info.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/pretty/SqlFormatOptions.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/pretty/SqlPrettyWriter.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlAbstractDateTimeLiteral.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlAbstractStringLiteral.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlAccessEnum.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlAccessType.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlAggFunction.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlAsOperator.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlBasicCall.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlBinaryOperator.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlBinaryStringLiteral.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlCall.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlCallBinding.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlCharStringLiteral.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlCollation.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlDataTypeSpec.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlDateLiteral.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlDelete.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlDialect.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlDynamicParam.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlExplain.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlExplainLevel.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlFunction.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlFunctionalOperator.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlFunctionCategory.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlIdentifier.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlInfixOperator.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlInsert.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlInsertKeyword.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlInternalOperator.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlIntervalLiteral.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlIntervalQualifier.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlJdbcFunctionCall.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlJoin.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlKind.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlLiteral.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlMerge.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlNode.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlNodeList.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlNullSemantics.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlNumericLiteral.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlOperandCountRange.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlOperator.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlOperatorBinding.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlOperatorTable.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlOrderBy.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlOverOperator.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlPostfixOperator.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlPrefixOperator.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlProcedureCallOperator.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlRankFunction.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlSampleSpec.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlSelect.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlSelectKeyword.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlSelectOperator.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlSetOperator.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlSetOption.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlSpecialOperator.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlStateCodes.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlSyntax.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlTimeLiteral.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlTimestampLiteral.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlUnnestOperator.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlUnresolvedFunction.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlUpdate.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlUtil.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlValuesOperator.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlWindow.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlWith.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlWithItem.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/SqlWriter.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/type/AbstractSqlType.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/type/ArraySqlType.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/type/AssignableOperandTypeChecker.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/type/BasicSqlType.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/type/ComparableOperandTypeChecker.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/type/CompositeOperandTypeChecker.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/type/CursorReturnTypeInference.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/type/ExplicitOperandTypeInference.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/type/ExplicitReturnTypeInference.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/type/ExtraSqlTypes.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/type/FamilyOperandTypeChecker.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/type/InferTypes.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/type/IntervalSqlType.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/type/JavaToSqlTypeConversionRules.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/type/LiteralOperandTypeChecker.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/type/MapSqlType.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/type/MatchReturnTypeInference.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/type/MultisetOperandTypeChecker.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/type/MultisetSqlType.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/type/ObjectSqlType.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/type/OperandsTypeChecking.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/type/OperandTypes.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/type/OrdinalReturnTypeInference.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/type/package-info.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/type/ReturnTypes.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/type/SameOperandTypeChecker.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/type/SetopOperandTypeChecker.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/type/SqlOperandCountRanges.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/type/SqlOperandTypeChecker.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/type/SqlOperandTypeInference.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/type/SqlReturnTypeInference.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/type/SqlReturnTypeInferenceChain.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/type/SqlSingleOperandTypeChecker.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/type/SqlTypeAssignmentRules.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/type/SqlTypeExplicitPrecedenceList.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/type/SqlTypeFactoryImpl.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/type/SqlTypeFamily.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/type/SqlTypeName.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/type/SqlTypeTransform.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/type/SqlTypeTransformCascade.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/type/SqlTypeTransforms.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/type/SqlTypeUtil.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/type/TableFunctionReturnTypeInference.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/util/ChainedSqlOperatorTable.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/util/ListSqlOperatorTable.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/util/package-info.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/util/ReflectiveSqlOperatorTable.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/util/SqlBasicVisitor.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/util/SqlBuilder.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/util/SqlShuttle.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/util/SqlString.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/util/SqlVisitor.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/AbstractNamespace.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/AggChecker.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/AggFinder.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/AggregatingScope.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/AggregatingSelectScope.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/AliasNamespace.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/CollectNamespace.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/CollectScope.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/DelegatingNamespace.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/DelegatingScope.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/DelegatingSqlValidatorCatalogReader.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/DelegatingSqlValidatorTable.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/EmptyScope.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/FieldNamespace.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/IdentifierNamespace.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/JoinNamespace.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/JoinScope.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/ListScope.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/OrderByScope.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/OverScope.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/package-info.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/ParameterNamespace.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/ParameterScope.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/ProcedureNamespace.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/SelectNamespace.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/SelectScope.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/SetopNamespace.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/SqlConformance.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/SqlIdentifierMoniker.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/SqlMoniker.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/SqlMonikerComparator.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/SqlMonikerImpl.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/SqlMonikerType.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/SqlMonotonicity.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/SqlScopedShuttle.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/SqlUserDefinedAggFunction.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/SqlUserDefinedFunction.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/SqlUserDefinedTableFunction.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/SqlUserDefinedTableMacro.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/SqlValidator.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/SqlValidatorCatalogReader.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/SqlValidatorException.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/SqlValidatorImpl.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/SqlValidatorNamespace.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/SqlValidatorScope.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/SqlValidatorTable.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/SqlValidatorUtil.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/SqlValidatorWithHints.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/TableConstructorNamespace.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/TableNamespace.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/UnnestNamespace.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/WithItemNamespace.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/WithNamespace.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql/validate/WithScope.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql2rel/DefaultValueFactory.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql2rel/package-info.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql2rel/ReflectiveConvertletTable.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql2rel/RelDecorrelator.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql2rel/RelFieldTrimmer.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql2rel/RelStructuredTypeFlattener.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql2rel/SqlNodeToRexConverter.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql2rel/SqlNodeToRexConverterImpl.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql2rel/SqlRexContext.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql2rel/SqlRexConvertlet.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql2rel/SqlRexConvertletTable.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql2rel/SqlToRelConverter.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql2rel/StandardConvertletTable.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/sql2rel/SubqueryConverter.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/stat/package-info.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/stat/RelStatColumnStatistics.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/stat/RelStatSource.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/trace/EigenbaseLogger.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/trace/EigenbaseTimingTracer.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/trace/EigenbaseTrace.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/trace/package-info.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util/BarfingInvocationHandler.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util/Benchmark.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util/BitString.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util/Bug.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util/CancelFlag.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util/CastingList.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util/ChunkList.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util/ClosableAllocation.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util/ClosableAllocationOwner.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util/CompositeList.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util/CompoundClosableAllocation.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util/ControlFlowException.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util/DelegatingInvocationHandler.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util/EigenbaseContextException.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util/EigenbaseException.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util/Filterator.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util/Glossary.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util/Holder.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util/IdentityHashSet.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util/ImmutableIntList.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util/ImmutableNullableList.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util/IntegerIntervalSet.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util/IntList.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util/JsonBuilder.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util/mapping/AbstractSourceMapping.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util/mapping/AbstractTargetMapping.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util/mapping/IntPair.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util/mapping/Mapping.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util/mapping/Mappings.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util/mapping/MappingType.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util/mapping/package-info.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util/NlsString.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util/package-info.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util/Pair.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util/Permutation.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util/ReflectiveVisitDispatcher.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util/ReflectiveVisitor.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util/ReflectUtil.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util/RhBase64.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util/SaffronProperties.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util/SerializableCharset.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util/Stacks.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util/StackWriter.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util/Static.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util/Template.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util/UnmodifiableArrayList.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util/Util.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util/XmlOutput.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util14/BasicDatetime.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util14/ConversionUtil.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util14/DateTimeUtil.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util14/EigenbaseParserException.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util14/EigenbaseValidatorException.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util14/NumberUtil.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util14/package-info.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util14/ZonelessDate.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util14/ZonelessDatetime.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util14/ZonelessTime.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/java/org/eigenbase/util14/ZonelessTimestamp.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/net/hydromatic/optiq/examples/foodmart/java/JdbcExample.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/net/hydromatic/optiq/impl/clone/ArrayTableTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/net/hydromatic/optiq/impl/generate/RangeTable.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/net/hydromatic/optiq/runtime/BinarySearchTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/net/hydromatic/optiq/runtime/EnumerablesTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/net/hydromatic/optiq/test/ExceptionMessageTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/net/hydromatic/optiq/test/FoodmartTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/net/hydromatic/optiq/test/InterpreterTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/net/hydromatic/optiq/test/JdbcAdapterTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/net/hydromatic/optiq/test/JdbcFrontJdbcBackLinqMiddleTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/net/hydromatic/optiq/test/JdbcFrontJdbcBackTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/net/hydromatic/optiq/test/JdbcFrontLinqBackTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/net/hydromatic/optiq/test/JdbcTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/net/hydromatic/optiq/test/LatticeTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/net/hydromatic/optiq/test/LinqFrontJdbcBackTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/net/hydromatic/optiq/test/MaterializationTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/net/hydromatic/optiq/test/ModelTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/net/hydromatic/optiq/test/MultiJdbcSchemaJoinTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/net/hydromatic/optiq/test/OptiqAssert.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/net/hydromatic/optiq/test/OptiqSqlOperatorTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/net/hydromatic/optiq/test/OptiqSuite.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/net/hydromatic/optiq/test/package-info.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/net/hydromatic/optiq/test/ReflectiveSchemaTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/net/hydromatic/optiq/test/SqlFunctionsTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/net/hydromatic/optiq/test/SqlToRelConverterExtendedTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/net/hydromatic/optiq/test/TableInRootSchemaTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/net/hydromatic/optiq/tools/FrameworksTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/net/hydromatic/optiq/tools/PlannerTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/net/hydromatic/optiq/tools/TpchSchema.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/net/hydromatic/optiq/util/BitSetsTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/net/hydromatic/optiq/util/graph/DirectedGraphTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/net/hydromatic/optiq/util/PartiallyOrderedSetTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/relopt/RelOptPlanReaderTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/relopt/RelOptUtilTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/relopt/RelWriterTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/relopt/volcano/VolcanoPlannerTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/relopt/volcano/VolcanoPlannerTraitTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/rex/RexExecutorTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/sql/parser/SqlParserTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/sql/parser/SqlUnParserTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/sql/test/DefaultSqlTestFactory.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/sql/test/DelegatingSqlTestFactory.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/sql/test/package-info.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/sql/test/SqlAdvisorTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/sql/test/SqlOperatorBaseTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/sql/test/SqlOperatorTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/sql/test/SqlPrettyWriterTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/sql/test/SqlTester.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/sql/test/SqlTesterImpl.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/sql/test/SqlTestFactory.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/sql/test/SqlTests.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/sql/test/SqlTypeNameTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/test/concurrent/ConcurrentTestCommand.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/test/concurrent/ConcurrentTestCommandExecutor.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/test/concurrent/ConcurrentTestCommandGenerator.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/test/concurrent/ConcurrentTestCommandScript.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/test/concurrent/ConcurrentTestPlugin.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/test/concurrent/ConcurrentTestPluginCommand.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/test/concurrent/ConcurrentTestTimedCommandGenerator.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/test/concurrent/package-info.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/test/concurrent/SamplePlugin.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/test/DiffRepository.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/test/DiffTestCase.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/test/EigenbaseResourceTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/test/EigenbaseTestCase.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/test/FilteratorTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/test/HepPlannerTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/test/MockCatalogReader.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/test/MockRelOptCost.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/test/MockRelOptPlanner.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/test/MockSqlOperatorTable.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/test/package-info.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/test/RelMetadataTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/test/RelOptRulesTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/test/RelOptTestBase.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/test/RexProgramTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/test/RexTransformerTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/test/SargTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/test/SqlLimitsTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/test/SqlTestGen.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/test/SqlToRelConverterTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/test/SqlToRelTestBase.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/test/SqlValidatorFeatureTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/test/SqlValidatorTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/test/SqlValidatorTestCase.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/util/ChunkListTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/util/mapping/MappingTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/util/PermutationTestCase.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/util/ReflectVisitorTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/util/TestUtil.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/test/java/org/eigenbase/util/UtilTest.java">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/resources/org/eigenbase/resource/EigenbaseResource.properties">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/resources/version/net-hydromatic-optiq-jdbc.properties">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/src/main/resources/version/net-hydromatic-optiq-jdbc.properties">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/../avatica/target/maven-archiver/pom.properties">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/../core/src/main/resources/org/eigenbase/resource/EigenbaseResource.properties">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/../core/src/main/resources/version/net-hydromatic-optiq-jdbc.properties">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/../core/target/classes/net-hydromatic-optiq-jdbc.properties">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/../core/target/classes/org/eigenbase/resource/EigenbaseResource.properties">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/../core/target/maven-archiver/pom.properties">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/../mongodb/target/maven-archiver/pom.properties">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/../plus/target/maven-archiver/pom.properties">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/../spark/target/maven-archiver/pom.properties">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/../splunk/target/maven-archiver/pom.properties">
+</file>
+<file name="/Volumes/Macintosh Storage/Users/sungsoo/github/incubator-optiq-master/core/../ubenchmark/target/maven-archiver/pom.properties">
+</file>
+</checkstyle>

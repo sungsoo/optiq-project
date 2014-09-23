@@ -1,0 +1,10 @@
+net/hydromatic/optiq/impl/tpcds/TpcdsSchema$TpcdsQueryableTable$1$1.class
+net/hydromatic/optiq/impl/tpch/TpchSchemaFactory.class
+net/hydromatic/optiq/impl/tpch/TpchSchema.class
+net/hydromatic/optiq/impl/tpcds/TpcdsSchema.class
+net/hydromatic/optiq/impl/tpcds/TpcdsSchema$TpcdsQueryableTable$1.class
+net/hydromatic/optiq/impl/tpch/TpchSchema$TpchQueryableTable$1$1.class
+net/hydromatic/optiq/impl/tpch/TpchSchema$TpchQueryableTable.class
+net/hydromatic/optiq/impl/tpch/TpchSchema$TpchQueryableTable$1.class
+net/hydromatic/optiq/impl/tpcds/TpcdsSchema$TpcdsQueryableTable.class
+net/hydromatic/optiq/impl/tpcds/TpcdsSchemaFactory.class
